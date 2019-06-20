@@ -1,0 +1,35 @@
+body {
+    background-color:#2b0344cf;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #fff;
+    border: 3px solid black;
+    background: rgba(10, 1, 29, 0.2);
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.todos li {
+    background: #390a5783;
+    border-top: 3px solid black;
+}
+
+.delete {
+    cursor: pointer;
+    font-size: 150%;
+    padding: 2px 20px;
+}
+
+.filtered {
+    display: none !important;
+}
+
+
+
