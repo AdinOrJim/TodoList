@@ -1,5 +1,5 @@
 body {
-    background-color:#2b0344cf;
+    background-color:#227a9f;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,13 +11,13 @@ input[type=text],
 input[type=text]:focus {
     color: #fff;
     border: 3px solid black;
-    background: rgba(10, 1, 29, 0.2);
+    background: #29648A;
     max-width: 400px;
     border-radius: 5px;
 }
 
 .todos li {
-    background: #390a5783;
+    background: #390a575a;
     border-top: 3px solid black;
 }
 
@@ -31,5 +31,11 @@ input[type=text]:focus {
     display: none !important;
 }
 
+h1{
+    color: #25274D;
+    font-style: italic;
+    font-weight: bold;
+
+}
 
 
